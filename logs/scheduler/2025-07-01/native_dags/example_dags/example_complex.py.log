@@ -1,0 +1,897 @@
+[2025-07-01T18:37:40.376+0700] {processor.py:186} INFO - Started process (PID=81115) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:37:40.377+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:37:40.381+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.381+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:37:40.405+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:37:40.661+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.660+0700] {override.py:1901} INFO - Created Permission View: can read on DAG:example_complex
+[2025-07-01T18:37:40.684+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.683+0700] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-07-01T18:37:40.701+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.701+0700] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-07-01T18:37:40.731+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.730+0700] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-07-01T18:37:40.750+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.749+0700] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-07-01T18:37:40.768+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.767+0700] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-07-01T18:37:40.785+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.784+0700] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-07-01T18:37:40.786+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.785+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:37:40.810+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.810+0700] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-07-01T18:37:40.811+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:37:40.811+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:37:40.849+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.484 seconds
+[2025-07-01T18:39:07.618+0700] {processor.py:186} INFO - Started process (PID=81439) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:39:07.628+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:39:07.633+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:39:07.632+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:39:07.656+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:39:07.702+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:39:07.701+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:39:07.725+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:39:07.725+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:39:07.776+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.168 seconds
+[2025-07-01T18:40:22.729+0700] {processor.py:186} INFO - Started process (PID=81626) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:40:22.732+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:40:22.735+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:40:22.735+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:40:22.757+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:40:22.802+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:40:22.802+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:40:22.826+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:40:22.826+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:40:22.874+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.156 seconds
+[2025-07-01T18:41:47.518+0700] {processor.py:186} INFO - Started process (PID=81938) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:41:47.529+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:41:47.533+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:41:47.532+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:41:47.555+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:41:47.603+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:41:47.603+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:41:47.628+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:41:47.627+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:41:47.674+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.168 seconds
+[2025-07-01T18:43:11.001+0700] {processor.py:186} INFO - Started process (PID=82130) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:43:11.011+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:43:11.015+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:43:11.015+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:43:11.037+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:43:11.088+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:43:11.087+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:43:11.110+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:43:11.110+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:43:11.156+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.165 seconds
+[2025-07-01T18:44:24.464+0700] {processor.py:186} INFO - Started process (PID=82312) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:44:24.475+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:44:24.479+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:44:24.478+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:44:24.504+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:44:24.552+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:44:24.552+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:44:24.576+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:44:24.576+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:44:26.128+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.168 seconds
+[2025-07-01T18:45:37.717+0700] {processor.py:186} INFO - Started process (PID=82550) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:45:37.728+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:45:37.733+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:45:37.732+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:45:37.760+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:45:37.816+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:45:37.816+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:45:37.842+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:45:37.842+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:45:37.892+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.191 seconds
+[2025-07-01T18:46:54.578+0700] {processor.py:186} INFO - Started process (PID=82740) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:46:54.588+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:46:54.592+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:46:54.591+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:46:54.613+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:46:54.663+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:46:54.661+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:46:54.689+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:46:54.689+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:46:54.735+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.167 seconds
+[2025-07-01T18:48:07.069+0700] {processor.py:186} INFO - Started process (PID=82981) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:48:07.079+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:48:07.083+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:48:07.082+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:48:07.108+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:48:07.159+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:48:07.158+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:48:07.187+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:48:07.187+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:48:07.235+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.177 seconds
+[2025-07-01T18:49:16.678+0700] {processor.py:186} INFO - Started process (PID=83156) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:49:16.689+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:49:16.693+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:49:16.692+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:49:16.714+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:49:16.759+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:49:16.758+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:49:16.786+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:49:16.786+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:49:16.830+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.162 seconds
+[2025-07-01T18:50:28.993+0700] {processor.py:186} INFO - Started process (PID=83336) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:50:28.995+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:50:29.000+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:50:28.999+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:50:29.025+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:50:29.088+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:50:29.088+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:50:29.116+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:50:29.116+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:50:29.157+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.175 seconds
+[2025-07-01T18:51:41.085+0700] {processor.py:186} INFO - Started process (PID=83582) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:51:41.087+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:51:41.091+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:51:41.091+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:51:41.115+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:51:41.168+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:51:41.168+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:51:41.193+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:51:41.193+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:51:41.233+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.160 seconds
+[2025-07-01T18:52:56.878+0700] {processor.py:186} INFO - Started process (PID=83821) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:52:56.881+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T18:52:56.885+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:52:56.884+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:52:56.907+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T18:52:56.959+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:52:56.959+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T18:52:56.985+0700] {logging_mixin.py:190} INFO - [2025-07-01T18:52:56.985+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T18:52:57.027+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.159 seconds
+[2025-07-01T19:07:15.454+0700] {processor.py:186} INFO - Started process (PID=84147) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:07:15.456+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:07:15.458+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:07:15.457+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:07:15.486+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:07:15.540+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:07:15.540+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:07:15.571+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:07:15.571+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:07:15.613+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.170 seconds
+[2025-07-01T19:08:27.807+0700] {processor.py:186} INFO - Started process (PID=84395) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:08:27.818+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:08:27.821+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:08:27.820+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:08:27.844+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:08:27.890+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:08:27.889+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:08:27.914+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:08:27.913+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:08:27.962+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.167 seconds
+[2025-07-01T19:09:42.451+0700] {processor.py:186} INFO - Started process (PID=84578) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:09:42.453+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:09:42.456+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:09:42.455+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:09:42.480+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:09:42.533+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:09:42.533+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:09:42.611+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:09:42.611+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:09:42.722+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.283 seconds
+[2025-07-01T19:10:53.177+0700] {processor.py:186} INFO - Started process (PID=84819) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:10:53.188+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:10:53.191+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:10:53.191+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:10:53.217+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:10:53.264+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:10:53.264+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:10:53.289+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:10:53.289+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:10:53.336+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.171 seconds
+[2025-07-01T19:12:03.550+0700] {processor.py:186} INFO - Started process (PID=84996) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:12:03.562+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:12:03.565+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:12:03.564+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:12:03.587+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:12:03.634+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:12:03.634+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:12:03.657+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:12:03.657+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:12:03.706+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.166 seconds
+[2025-07-01T19:13:14.199+0700] {processor.py:186} INFO - Started process (PID=85174) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:13:14.210+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:13:14.213+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:13:14.212+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:13:14.238+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:13:14.289+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:13:14.288+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:13:14.316+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:13:14.315+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:13:14.364+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.178 seconds
+[2025-07-01T19:14:26.856+0700] {processor.py:186} INFO - Started process (PID=85358) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:14:26.867+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:14:26.870+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:14:26.869+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:14:26.895+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:14:26.945+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:14:26.945+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:14:26.976+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:14:26.975+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:14:27.024+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.180 seconds
+[2025-07-01T19:15:37.052+0700] {processor.py:186} INFO - Started process (PID=85660) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:15:37.062+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:15:37.065+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:15:37.064+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:15:37.088+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:15:37.133+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:15:37.132+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:15:37.157+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:15:37.156+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:15:37.203+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.163 seconds
+[2025-07-01T19:16:50.810+0700] {processor.py:186} INFO - Started process (PID=85839) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:16:50.813+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:16:50.816+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:16:50.815+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:16:50.837+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:16:50.889+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:16:50.889+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:16:50.916+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:16:50.916+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:16:50.967+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.168 seconds
+[2025-07-01T19:17:58.383+0700] {processor.py:186} INFO - Started process (PID=86020) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:17:58.393+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:17:58.396+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:17:58.395+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:17:58.420+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:17:58.472+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:17:58.471+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:17:58.501+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:17:58.501+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:17:58.548+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.177 seconds
+[2025-07-01T19:19:12.029+0700] {processor.py:186} INFO - Started process (PID=86205) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:19:12.040+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:19:12.043+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:19:12.042+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:19:12.068+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:19:12.119+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:19:12.118+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:19:12.144+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:19:12.144+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:19:12.202+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.185 seconds
+[2025-07-01T19:20:28.708+0700] {processor.py:186} INFO - Started process (PID=86394) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:20:28.719+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:20:28.721+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:20:28.720+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:20:28.744+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:20:28.799+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:20:28.799+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:20:28.828+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:20:28.827+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:20:28.878+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.184 seconds
+[2025-07-01T19:21:37.019+0700] {processor.py:186} INFO - Started process (PID=86685) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:21:37.030+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:21:37.032+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:21:37.032+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:21:37.060+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:21:37.120+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:21:37.119+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:21:37.149+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:21:37.149+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:21:37.204+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.198 seconds
+[2025-07-01T19:22:47.409+0700] {processor.py:186} INFO - Started process (PID=86870) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:22:47.412+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:22:47.415+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:22:47.414+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:22:47.439+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:22:47.485+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:22:47.484+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:22:47.509+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:22:47.508+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:22:47.556+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.157 seconds
+[2025-07-01T19:24:02.992+0700] {processor.py:186} INFO - Started process (PID=87048) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:24:03.003+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:24:03.006+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:24:03.005+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:24:03.031+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:24:03.089+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:24:03.088+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:24:03.118+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:24:03.117+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:24:03.168+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.188 seconds
+[2025-07-01T19:25:15.877+0700] {processor.py:186} INFO - Started process (PID=87233) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:25:15.888+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:25:15.891+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:25:15.890+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:25:15.917+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:25:15.969+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:25:15.969+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:25:15.998+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:25:15.998+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:25:16.048+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.183 seconds
+[2025-07-01T19:26:33.297+0700] {processor.py:186} INFO - Started process (PID=87480) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:26:33.307+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:26:33.310+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:26:33.309+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:26:33.336+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:26:33.392+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:26:33.391+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:26:33.423+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:26:33.422+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:26:33.469+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.184 seconds
+[2025-07-01T19:27:44.433+0700] {processor.py:186} INFO - Started process (PID=87719) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:27:44.443+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:27:44.446+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:27:44.445+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:27:44.471+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:27:44.525+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:27:44.524+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:27:44.553+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:27:44.552+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:27:44.604+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.182 seconds
+[2025-07-01T19:28:58.281+0700] {processor.py:186} INFO - Started process (PID=87897) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:28:58.293+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:28:58.296+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:28:58.295+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:28:58.320+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:28:58.373+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:28:58.372+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:28:58.402+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:28:58.402+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:28:58.455+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.185 seconds
+[2025-07-01T19:30:09.309+0700] {processor.py:186} INFO - Started process (PID=88080) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:30:09.312+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:30:09.314+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:30:09.313+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:30:09.336+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:30:09.384+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:30:09.383+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:30:09.406+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:30:09.406+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:30:09.454+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.156 seconds
+[2025-07-01T19:31:22.410+0700] {processor.py:186} INFO - Started process (PID=88322) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:31:22.422+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:31:22.424+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:31:22.424+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:31:22.449+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:31:22.498+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:31:22.497+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:31:22.523+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:31:22.522+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:31:22.572+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.174 seconds
+[2025-07-01T19:32:32.637+0700] {processor.py:186} INFO - Started process (PID=88498) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:32:32.649+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:32:32.652+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:32:32.651+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:32:32.677+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:32:32.730+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:32:32.729+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:32:32.757+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:32:32.757+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:32:32.806+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.181 seconds
+[2025-07-01T19:33:46.862+0700] {processor.py:186} INFO - Started process (PID=88742) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:33:46.872+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:33:46.874+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:33:46.874+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:33:46.898+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:33:46.955+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:33:46.954+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:33:46.983+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:33:46.983+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:33:47.039+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.190 seconds
+[2025-07-01T19:35:01.313+0700] {processor.py:186} INFO - Started process (PID=88922) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:35:01.324+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:35:01.328+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:35:01.327+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:35:01.351+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:35:01.400+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:35:01.399+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:35:01.423+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:35:01.423+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:35:01.469+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.167 seconds
+[2025-07-01T19:36:16.559+0700] {processor.py:186} INFO - Started process (PID=89169) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:36:16.569+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:36:16.572+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:36:16.571+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:36:16.595+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:36:16.656+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:36:16.655+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:36:16.685+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:36:16.684+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:36:16.736+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.188 seconds
+[2025-07-01T19:37:32.351+0700] {processor.py:186} INFO - Started process (PID=89415) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:37:32.354+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:37:32.356+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:37:32.355+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:37:32.384+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:37:32.432+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:37:32.432+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:37:32.456+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:37:32.455+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:37:32.501+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.162 seconds
+[2025-07-01T19:38:49.119+0700] {processor.py:186} INFO - Started process (PID=89661) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:38:49.129+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:38:49.132+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:38:49.131+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:38:49.155+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:38:49.204+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:38:49.203+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:38:49.229+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:38:49.228+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:38:49.272+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.164 seconds
+[2025-07-01T19:40:01.172+0700] {processor.py:186} INFO - Started process (PID=89839) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:40:01.182+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:40:01.185+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:40:01.184+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:40:01.208+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:40:01.261+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:40:01.260+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:40:01.290+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:40:01.289+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:40:01.339+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.179 seconds
+[2025-07-01T19:41:16.019+0700] {processor.py:186} INFO - Started process (PID=90027) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:41:16.031+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:41:16.033+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:41:16.032+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:41:16.057+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:41:16.109+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:41:16.109+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:41:16.136+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:41:16.135+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:41:16.182+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.178 seconds
+[2025-07-01T19:42:29.694+0700] {processor.py:186} INFO - Started process (PID=90268) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:42:29.704+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:42:29.708+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:42:29.707+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:42:29.735+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:42:29.792+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:42:29.792+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:42:29.825+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:42:29.824+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:42:29.884+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.206 seconds
+[2025-07-01T19:43:44.839+0700] {processor.py:186} INFO - Started process (PID=90470) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:43:44.843+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:43:44.849+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:43:44.847+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:43:44.888+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:43:44.953+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:43:44.953+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:43:44.986+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:43:44.986+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:43:45.035+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.215 seconds
+[2025-07-01T19:44:56.117+0700] {processor.py:186} INFO - Started process (PID=90692) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:44:56.119+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:44:56.122+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:44:56.121+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:44:56.144+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:44:56.195+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:44:56.195+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:44:56.224+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:44:56.223+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:44:56.272+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.166 seconds
+[2025-07-01T19:46:06.898+0700] {processor.py:186} INFO - Started process (PID=90873) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:46:06.901+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:46:06.904+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:46:06.903+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:46:06.928+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:46:06.986+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:46:06.986+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:46:07.013+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:46:07.013+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:46:07.057+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.176 seconds
+[2025-07-01T19:47:20.755+0700] {processor.py:186} INFO - Started process (PID=91123) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:47:20.757+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:47:20.759+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:47:20.759+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:47:20.781+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:47:20.826+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:47:20.826+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:47:20.852+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:47:20.852+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:47:20.899+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.155 seconds
+[2025-07-01T19:48:29.164+0700] {processor.py:186} INFO - Started process (PID=91299) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:48:29.175+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:48:29.178+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:48:29.177+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:48:29.205+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:48:29.258+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:48:29.258+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:48:29.286+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:48:29.285+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:48:29.335+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.184 seconds
+[2025-07-01T19:49:41.140+0700] {processor.py:186} INFO - Started process (PID=91478) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:49:41.151+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:49:41.153+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:49:41.153+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:49:41.176+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:49:41.222+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:49:41.222+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:49:41.250+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:49:41.250+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:49:41.300+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.170 seconds
+[2025-07-01T19:50:41.297+0700] {processor.py:186} INFO - Started process (PID=91647) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:50:41.299+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:50:41.300+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:50:41.299+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:50:41.309+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:50:41.330+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:50:41.329+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:50:41.339+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:50:41.339+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:50:41.355+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2025-07-01T19:51:36.656+0700] {processor.py:186} INFO - Started process (PID=91810) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:51:36.666+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:51:36.667+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:51:36.667+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:51:36.676+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:51:36.696+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:51:36.695+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:51:36.704+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:51:36.704+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:51:36.719+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2025-07-01T19:52:33.152+0700] {processor.py:186} INFO - Started process (PID=92040) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:52:33.161+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:52:33.162+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:52:33.162+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:52:33.171+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:52:33.189+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:52:33.189+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:52:33.199+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:52:33.198+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:52:33.214+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T19:53:28.689+0700] {processor.py:186} INFO - Started process (PID=92200) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:53:28.697+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:53:28.699+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:53:28.698+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:53:28.707+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:53:28.726+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:53:28.726+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:53:28.737+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:53:28.737+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:53:28.754+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2025-07-01T19:54:22.258+0700] {processor.py:186} INFO - Started process (PID=92359) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:54:22.267+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:54:22.269+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:54:22.268+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:54:22.278+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:54:22.301+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:54:22.300+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:54:22.314+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:54:22.314+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:54:22.333+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.080 seconds
+[2025-07-01T19:55:17.131+0700] {processor.py:186} INFO - Started process (PID=92519) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:55:17.132+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:55:17.134+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:55:17.133+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:55:17.143+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:55:17.164+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:55:17.163+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:55:17.174+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:55:17.174+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:55:17.193+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T19:56:12.482+0700] {processor.py:186} INFO - Started process (PID=92681) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:56:12.483+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:56:12.485+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:56:12.484+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:56:12.498+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:56:12.526+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:56:12.526+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:56:12.540+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:56:12.540+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:56:12.564+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2025-07-01T19:57:06.264+0700] {processor.py:186} INFO - Started process (PID=92903) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:57:06.273+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:57:06.274+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:57:06.274+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:57:06.283+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:57:06.301+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:57:06.301+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:57:06.310+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:57:06.310+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:57:06.325+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T19:58:26.765+0700] {processor.py:186} INFO - Started process (PID=93115) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:58:26.767+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:58:26.768+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:58:26.767+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:58:26.776+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:58:26.795+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:58:26.794+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:58:26.804+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:58:26.803+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:58:26.818+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2025-07-01T19:59:24.605+0700] {processor.py:186} INFO - Started process (PID=93283) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:59:24.607+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T19:59:24.608+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:59:24.608+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:59:24.634+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T19:59:24.656+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:59:24.656+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T19:59:24.667+0700] {logging_mixin.py:190} INFO - [2025-07-01T19:59:24.667+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T19:59:24.684+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.084 seconds
+[2025-07-01T20:00:22.058+0700] {processor.py:186} INFO - Started process (PID=93446) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:00:22.059+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:00:22.060+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:00:22.060+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:00:22.070+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:00:22.089+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:00:22.089+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:00:22.098+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:00:22.098+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:00:22.114+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2025-07-01T20:01:21.573+0700] {processor.py:186} INFO - Started process (PID=93612) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:01:21.582+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:01:21.584+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:01:21.583+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:01:21.593+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:01:21.611+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:01:21.611+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:01:21.621+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:01:21.621+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:01:21.637+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2025-07-01T20:02:16.659+0700] {processor.py:186} INFO - Started process (PID=93836) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:02:16.668+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:02:16.669+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:02:16.668+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:02:16.679+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:02:16.697+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:02:16.697+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:02:16.706+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:02:16.706+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:02:16.720+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2025-07-01T20:03:12.719+0700] {processor.py:186} INFO - Started process (PID=94002) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:03:12.720+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:03:12.721+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:03:12.721+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:03:12.731+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:03:12.749+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:03:12.749+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:03:12.861+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:03:12.861+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:03:12.875+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.161 seconds
+[2025-07-01T20:04:11.206+0700] {processor.py:186} INFO - Started process (PID=94164) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:04:11.207+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:04:11.208+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:04:11.208+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:04:11.221+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:04:11.251+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:04:11.251+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:04:11.412+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:04:11.412+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:04:11.432+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.233 seconds
+[2025-07-01T20:05:15.682+0700] {processor.py:186} INFO - Started process (PID=94344) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:05:15.683+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:05:15.684+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:05:15.684+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:05:15.695+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:05:15.719+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:05:15.718+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:05:15.732+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:05:15.732+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:05:15.751+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.074 seconds
+[2025-07-01T20:06:12.958+0700] {processor.py:186} INFO - Started process (PID=94511) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:06:12.967+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:06:12.969+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:06:12.968+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:06:12.978+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:06:12.995+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:06:12.995+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:06:13.005+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:06:13.005+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:06:13.019+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T20:07:09.212+0700] {processor.py:186} INFO - Started process (PID=94673) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:07:09.214+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:07:09.215+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:07:09.215+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:07:09.228+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:07:09.255+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:07:09.254+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:07:09.267+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:07:09.266+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:07:09.286+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.080 seconds
+[2025-07-01T20:08:03.354+0700] {processor.py:186} INFO - Started process (PID=94895) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:08:03.355+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:08:03.356+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:08:03.356+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:08:03.370+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:08:03.397+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:08:03.397+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:08:03.410+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:08:03.409+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:08:03.432+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.085 seconds
+[2025-07-01T20:08:58.546+0700] {processor.py:186} INFO - Started process (PID=95000) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:08:58.555+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:08:58.556+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:08:58.556+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:08:58.565+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:08:58.583+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:08:58.583+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:08:58.593+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:08:58.593+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:08:58.609+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2025-07-01T20:09:55.205+0700] {processor.py:186} INFO - Started process (PID=95160) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:09:55.214+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:09:55.215+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:09:55.215+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:09:55.224+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:09:55.242+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:09:55.242+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:09:55.251+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:09:55.251+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:09:55.265+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2025-07-01T20:10:47.934+0700] {processor.py:186} INFO - Started process (PID=95321) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:10:47.944+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:10:47.945+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:10:47.945+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:10:47.960+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:10:47.985+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:10:47.985+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:10:48.000+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:10:48.000+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:10:48.023+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2025-07-01T20:11:44.219+0700] {processor.py:186} INFO - Started process (PID=95481) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:11:44.228+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:11:44.229+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:11:44.228+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:11:44.237+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:11:44.256+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:11:44.256+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:11:44.265+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:11:44.265+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:11:44.280+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2025-07-01T20:12:38.120+0700] {processor.py:186} INFO - Started process (PID=95647) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:12:38.129+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:12:38.130+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:12:38.130+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:12:38.140+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:12:38.157+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:12:38.157+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:12:38.166+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:12:38.166+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:12:38.180+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2025-07-01T20:13:30.040+0700] {processor.py:186} INFO - Started process (PID=95868) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:13:30.050+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:13:30.051+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:13:30.050+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:13:30.060+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:13:30.079+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:13:30.078+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:13:30.088+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:13:30.088+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:13:30.102+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T20:14:25.501+0700] {processor.py:186} INFO - Started process (PID=96026) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:14:25.510+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:14:25.511+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:14:25.511+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:14:25.521+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:14:25.539+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:14:25.539+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:14:25.548+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:14:25.548+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:14:25.563+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T20:15:23.720+0700] {processor.py:186} INFO - Started process (PID=96189) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:15:23.730+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:15:23.731+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:15:23.730+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:15:23.740+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:15:23.758+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:15:23.758+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:15:23.767+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:15:23.767+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:15:23.781+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2025-07-01T20:16:18.758+0700] {processor.py:186} INFO - Started process (PID=96354) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:16:18.759+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:16:18.760+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:16:18.760+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:16:18.769+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:16:18.788+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:16:18.788+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:16:18.797+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:16:18.797+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:16:18.812+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2025-07-01T20:17:13.282+0700] {processor.py:186} INFO - Started process (PID=96518) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:17:13.292+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:17:13.293+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:17:13.293+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:17:13.302+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:17:13.321+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:17:13.321+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:17:13.330+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:17:13.330+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:17:13.346+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds
+[2025-07-01T20:18:28.184+0700] {processor.py:186} INFO - Started process (PID=96782) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:18:28.193+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:18:28.194+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:18:28.193+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:18:28.203+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:18:28.221+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:18:28.221+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:18:28.232+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:18:28.232+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:18:28.247+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2025-07-01T20:19:47.789+0700] {processor.py:186} INFO - Started process (PID=96992) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:19:47.790+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:19:47.791+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:19:47.791+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:19:47.800+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:19:47.818+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:19:47.818+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:19:47.829+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:19:47.829+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:19:47.844+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2025-07-01T20:20:43.056+0700] {processor.py:186} INFO - Started process (PID=97156) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:20:43.064+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:20:43.065+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:20:43.065+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:20:43.074+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:20:43.094+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:20:43.094+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:20:43.103+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:20:43.103+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:20:43.117+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T20:22:00.782+0700] {processor.py:186} INFO - Started process (PID=97363) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:22:00.783+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:22:00.784+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:22:00.784+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:22:00.793+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:22:00.812+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:22:00.811+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:22:00.821+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:22:00.821+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:22:00.835+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2025-07-01T20:22:57.213+0700] {processor.py:186} INFO - Started process (PID=97522) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:22:57.222+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:22:57.223+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:22:57.223+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:22:57.232+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:22:57.249+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:22:57.249+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:22:57.259+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:22:57.259+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:22:57.273+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2025-07-01T20:23:52.220+0700] {processor.py:186} INFO - Started process (PID=97744) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:23:52.228+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:23:52.229+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:23:52.229+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:23:52.238+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:23:52.257+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:23:52.257+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:23:52.266+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:23:52.266+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:23:52.280+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2025-07-01T20:25:11.378+0700] {processor.py:186} INFO - Started process (PID=97953) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:25:11.388+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:25:11.389+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:25:11.388+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:25:11.397+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:25:11.415+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:25:11.415+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:25:11.426+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:25:11.426+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:25:11.441+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2025-07-01T20:26:09.179+0700] {processor.py:186} INFO - Started process (PID=98120) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:26:09.188+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:26:09.189+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:26:09.189+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:26:09.198+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:26:09.215+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:26:09.215+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:26:09.225+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:26:09.225+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:26:09.240+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2025-07-01T20:27:04.284+0700] {processor.py:186} INFO - Started process (PID=98281) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:27:04.293+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:27:04.294+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:27:04.294+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:27:04.303+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:27:04.321+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:27:04.321+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:27:04.330+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:27:04.330+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:27:04.345+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T20:28:25.457+0700] {processor.py:186} INFO - Started process (PID=98610) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:28:25.467+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:28:25.468+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:28:25.467+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:28:25.476+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:28:25.494+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:28:25.494+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:28:25.503+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:28:25.503+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:28:25.519+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2025-07-01T20:29:19.054+0700] {processor.py:186} INFO - Started process (PID=98771) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:29:19.062+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:29:19.064+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:29:19.063+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:29:19.072+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:29:19.090+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:29:19.090+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:29:19.099+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:29:19.099+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:29:19.114+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2025-07-01T20:30:39.894+0700] {processor.py:186} INFO - Started process (PID=98978) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:30:39.904+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:30:39.905+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:30:39.905+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:30:39.914+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:30:39.931+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:30:39.931+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:30:39.939+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:30:39.939+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:30:39.952+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2025-07-01T20:31:36.063+0700] {processor.py:186} INFO - Started process (PID=99142) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:31:36.072+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:31:36.073+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:31:36.073+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:31:36.082+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:31:36.099+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:31:36.099+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:31:36.108+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:31:36.108+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:31:36.122+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2025-07-01T20:32:32.139+0700] {processor.py:186} INFO - Started process (PID=99302) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:32:32.140+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:32:32.141+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:32:32.140+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:32:32.149+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:32:32.166+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:32:32.166+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:32:32.174+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:32:32.174+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:32:32.187+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.053 seconds
+[2025-07-01T20:33:27.563+0700] {processor.py:186} INFO - Started process (PID=99464) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:33:27.564+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:33:27.565+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:33:27.564+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:33:27.574+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:33:27.592+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:33:27.591+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:33:27.602+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:33:27.601+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:33:27.617+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2025-07-01T20:34:42.525+0700] {processor.py:186} INFO - Started process (PID=99791) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:34:42.526+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:34:42.527+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:34:42.527+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:34:42.537+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:34:42.556+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:34:42.555+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:34:42.565+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:34:42.565+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:34:42.581+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2025-07-01T20:35:38.169+0700] {processor.py:186} INFO - Started process (PID=99956) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:35:38.171+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:35:38.172+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:35:38.171+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:35:38.181+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:35:38.199+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:35:38.199+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:35:38.209+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:35:38.209+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:35:38.226+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2025-07-01T20:36:37.722+0700] {processor.py:186} INFO - Started process (PID=100157) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:36:37.724+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T20:36:37.725+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:36:37.724+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:36:37.734+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T20:36:37.753+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:36:37.753+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T20:36:37.763+0700] {logging_mixin.py:190} INFO - [2025-07-01T20:36:37.763+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T20:36:37.778+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2025-07-01T21:25:57.499+0700] {processor.py:186} INFO - Started process (PID=100435) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:25:57.510+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:25:57.513+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:25:57.512+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:25:57.539+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:25:57.596+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:25:57.596+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:25:57.620+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:25:57.619+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:25:57.659+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.176 seconds
+[2025-07-01T21:27:07.913+0700] {processor.py:186} INFO - Started process (PID=100725) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:27:07.923+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:27:07.925+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:27:07.924+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:27:07.950+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:27:08.003+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:27:08.002+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:27:08.027+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:27:08.026+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:27:08.068+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.168 seconds
+[2025-07-01T21:28:26.285+0700] {processor.py:186} INFO - Started process (PID=101337) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:28:26.288+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:28:26.290+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:28:26.289+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:28:26.315+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:28:26.371+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:28:26.371+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:28:26.399+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:28:26.399+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:28:26.450+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.178 seconds
+[2025-07-01T21:29:37.289+0700] {processor.py:186} INFO - Started process (PID=101629) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:29:37.300+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:29:37.303+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:29:37.302+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:29:37.328+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:29:37.379+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:29:37.378+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:29:37.402+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:29:37.402+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:29:37.474+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.196 seconds
+[2025-07-01T21:30:48.241+0700] {processor.py:186} INFO - Started process (PID=101798) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:30:48.252+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:30:48.254+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:30:48.254+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:30:48.276+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:30:48.329+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:30:48.329+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:30:48.356+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:30:48.355+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:30:48.401+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.173 seconds
+[2025-07-01T21:31:57.945+0700] {processor.py:186} INFO - Started process (PID=102026) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:31:57.956+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:31:57.959+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:31:57.958+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:31:57.980+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:31:58.026+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:31:58.025+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:31:58.050+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:31:58.050+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:31:58.088+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.156 seconds
+[2025-07-01T21:33:39.104+0700] {processor.py:186} INFO - Started process (PID=102926) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:33:39.115+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:33:39.117+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:33:39.116+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:33:39.141+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:33:39.194+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:33:39.194+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:33:39.224+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:33:39.224+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:33:39.274+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.182 seconds
+[2025-07-01T21:34:56.178+0700] {processor.py:186} INFO - Started process (PID=103103) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:34:56.188+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:34:56.191+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:34:56.190+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:34:56.213+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:34:56.264+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:34:56.263+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:34:56.291+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:34:56.291+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:34:56.339+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.171 seconds
+[2025-07-01T21:36:15.236+0700] {processor.py:186} INFO - Started process (PID=103837) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:36:15.247+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:36:15.250+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:36:15.249+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:36:15.275+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:36:15.325+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:36:15.324+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:36:15.349+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:36:15.349+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:36:15.394+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.171 seconds
+[2025-07-01T21:37:37.738+0700] {processor.py:186} INFO - Started process (PID=104085) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:37:37.748+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:37:37.751+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:37:37.750+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:37:37.780+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:37:37.837+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:37:37.836+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:37:37.869+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:37:37.868+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:37:37.916+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.191 seconds
+[2025-07-01T21:38:47.155+0700] {processor.py:186} INFO - Started process (PID=104256) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:38:47.166+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:38:47.168+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:38:47.168+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:38:47.193+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:38:47.250+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:38:47.250+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:38:47.279+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:38:47.278+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:38:47.330+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.188 seconds
+[2025-07-01T21:40:04.004+0700] {processor.py:186} INFO - Started process (PID=104429) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:40:04.014+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T21:40:04.017+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:40:04.016+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:40:04.041+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T21:40:04.094+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:40:04.093+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T21:40:04.125+0700] {logging_mixin.py:190} INFO - [2025-07-01T21:40:04.125+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T21:40:04.176+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.183 seconds
+[2025-07-01T22:18:04.842+0700] {processor.py:186} INFO - Started process (PID=105017) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:18:04.846+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:18:04.848+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:18:04.847+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:18:04.877+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:18:04.930+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:18:04.929+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:18:04.960+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:18:04.959+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:18:05.003+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.176 seconds
+[2025-07-01T22:19:23.382+0700] {processor.py:186} INFO - Started process (PID=105384) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:19:23.393+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:19:23.397+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:19:23.396+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:19:23.423+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:19:23.477+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:19:23.476+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:19:23.505+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:19:23.504+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:19:23.556+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.188 seconds
+[2025-07-01T22:20:35.555+0700] {processor.py:186} INFO - Started process (PID=105559) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:20:35.566+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:20:35.568+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:20:35.568+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:20:35.592+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:20:35.639+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:20:35.638+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:20:35.667+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:20:35.667+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:20:35.712+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.169 seconds
+[2025-07-01T22:21:41.647+0700] {processor.py:186} INFO - Started process (PID=105720) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:21:41.657+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:21:41.660+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:21:41.659+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:21:41.686+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:21:41.741+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:21:41.741+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:21:41.769+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:21:41.769+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:21:41.817+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.185 seconds
+[2025-07-01T22:22:53.744+0700] {processor.py:186} INFO - Started process (PID=106141) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:22:53.754+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:22:53.757+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:22:53.756+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:22:53.783+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:22:53.831+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:22:53.830+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:22:53.859+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:22:53.859+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:22:53.906+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.175 seconds
+[2025-07-01T22:24:02.846+0700] {processor.py:186} INFO - Started process (PID=106374) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:24:02.849+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:24:02.851+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:24:02.851+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:24:02.874+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:24:02.927+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:24:02.926+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:24:02.953+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:24:02.952+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:24:02.999+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.163 seconds
+[2025-07-01T22:25:17.415+0700] {processor.py:186} INFO - Started process (PID=106610) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:25:17.426+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:25:17.428+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:25:17.427+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:25:17.450+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:25:17.496+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:25:17.496+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:25:17.524+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:25:17.523+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:25:17.573+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.168 seconds
+[2025-07-01T22:26:29.793+0700] {processor.py:186} INFO - Started process (PID=106781) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:26:29.803+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:26:29.805+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:26:29.805+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:26:29.830+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:26:29.877+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:26:29.877+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:26:29.901+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:26:29.900+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:26:29.945+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.166 seconds
+[2025-07-01T22:27:42.746+0700] {processor.py:186} INFO - Started process (PID=106961) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:27:42.749+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:27:42.751+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:27:42.751+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:27:42.773+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:27:42.830+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:27:42.829+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:27:42.865+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:27:42.864+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:27:42.916+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.182 seconds
+[2025-07-01T22:28:50.215+0700] {processor.py:186} INFO - Started process (PID=107125) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:28:50.226+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:28:50.230+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:28:50.228+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:28:50.257+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:28:50.316+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:28:50.316+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:28:50.341+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:28:50.340+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:28:50.407+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.204 seconds
+[2025-07-01T22:29:59.068+0700] {processor.py:186} INFO - Started process (PID=107358) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:29:59.079+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:29:59.081+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:29:59.081+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:29:59.104+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:29:59.156+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:29:59.156+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:29:59.181+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:29:59.181+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:29:59.228+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.172 seconds
+[2025-07-01T22:31:16.871+0700] {processor.py:186} INFO - Started process (PID=107538) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:31:16.881+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:31:16.885+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:31:16.884+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:31:16.911+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:31:16.958+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:31:16.958+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:31:16.980+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:31:16.980+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:31:17.028+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.170 seconds
+[2025-07-01T22:32:26.962+0700] {processor.py:186} INFO - Started process (PID=107765) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:32:26.965+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:32:26.969+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:32:26.968+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:32:26.995+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:32:27.054+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:32:27.053+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:32:27.077+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:32:27.076+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:32:27.124+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.174 seconds
+[2025-07-01T22:33:40.788+0700] {processor.py:186} INFO - Started process (PID=107944) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:33:40.799+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:33:40.801+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:33:40.800+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:33:40.830+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:33:40.879+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:33:40.879+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:33:40.906+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:33:40.906+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:33:40.946+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.169 seconds
+[2025-07-01T22:34:53.642+0700] {processor.py:186} INFO - Started process (PID=108179) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:34:53.645+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:34:53.648+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:34:53.647+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:34:53.679+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:34:53.738+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:34:53.737+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:34:53.768+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:34:53.768+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:34:54.040+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.410 seconds
+[2025-07-01T22:36:08.047+0700] {processor.py:186} INFO - Started process (PID=108351) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:36:08.057+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:36:08.060+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:36:08.059+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:36:08.083+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:36:08.141+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:36:08.140+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:36:08.171+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:36:08.171+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:36:08.212+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.178 seconds
+[2025-07-01T22:37:29.668+0700] {processor.py:186} INFO - Started process (PID=108596) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:37:29.670+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:37:29.673+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:37:29.672+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:37:29.697+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:37:29.749+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:37:29.748+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:37:29.773+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:37:29.773+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:37:29.815+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.160 seconds
+[2025-07-01T22:38:51.731+0700] {processor.py:186} INFO - Started process (PID=108776) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:38:51.741+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:38:51.744+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:38:51.743+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:38:51.770+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:38:51.821+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:38:51.821+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:38:51.852+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:38:51.852+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:38:51.903+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.184 seconds
+[2025-07-01T22:40:07.434+0700] {processor.py:186} INFO - Started process (PID=109044) to work on /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:40:07.437+0700] {processor.py:914} INFO - Processing file /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-01T22:40:07.440+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:40:07.439+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:40:07.465+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-07-01T22:40:07.795+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:40:07.794+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-01T22:40:07.818+0700] {logging_mixin.py:190} INFO - [2025-07-01T22:40:07.817+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-01T22:40:07.859+0700] {processor.py:208} INFO - Processing /home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.439 seconds

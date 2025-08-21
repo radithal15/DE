@@ -1,0 +1,87 @@
+[2025-07-01T23:00:02.030+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-01T23:00:02.172+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example.print_hello_world manual__2025-07-01T15:59:53.087097+00:00 [queued]>
+[2025-07-01T23:00:02.181+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example.print_hello_world manual__2025-07-01T15:59:53.087097+00:00 [queued]>
+[2025-07-01T23:00:02.181+0700] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-07-01T23:00:02.214+0700] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): print_hello_world> on 2025-07-01 15:59:53.087097+00:00
+[2025-07-01T23:00:02.222+0700] {standard_task_runner.py:72} INFO - Started process 113041 to run task
+[2025-07-01T23:00:02.230+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'example', 'print_hello_world', 'manual__2025-07-01T15:59:53.087097+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/example.py', '--cfg-path', '/tmp/tmp_krst6i4']
+[2025-07-01T23:00:02.235+0700] {standard_task_runner.py:105} INFO - Job 13: Subtask print_hello_world
+[2025-07-01T23:00:02.326+0700] {task_command.py:467} INFO - Running <TaskInstance: example.print_hello_world manual__2025-07-01T15:59:53.087097+00:00 [running]> on host RadithaAsus.localdomain
+[2025-07-01T23:00:02.450+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example' AIRFLOW_CTX_TASK_ID='print_hello_world' AIRFLOW_CTX_EXECUTION_DATE='2025-07-01T15:59:53.087097+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-01T15:59:53.087097+00:00'
+[2025-07-01T23:00:02.451+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-01T23:00:02.483+0700] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-07-01T23:00:02.485+0700] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'hello world"]
+[2025-07-01T23:00:02.501+0700] {subprocess.py:99} INFO - Output:
+[2025-07-01T23:00:02.504+0700] {subprocess.py:106} INFO - /usr/bin/bash: -c: line 1: unexpected EOF while looking for matching `''
+[2025-07-01T23:00:02.505+0700] {subprocess.py:110} INFO - Command exited with return code 2
+[2025-07-01T23:00:02.519+0700] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-07-01T23:00:02.526+0700] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=example, task_id=print_hello_world, run_id=manual__2025-07-01T15:59:53.087097+00:00, execution_date=20250701T155953, start_date=20250701T160002, end_date=20250701T160002
+[2025-07-01T23:00:02.548+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-01T23:00:02.549+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 13 for task print_hello_world (Bash command failed. The command returned a non-zero exit code 2.; 113041)
+Traceback (most recent call last):
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/radithalr/data-engineer-learn/.airflow/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-07-01T23:00:02.606+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-07-01T23:00:02.625+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-01T23:00:02.627+0700] {local_task_job_runner.py:245} INFO - ::endgroup::
